@@ -14,6 +14,7 @@
     "body-parser": "^1.x.x",
     "compression": "^1.x.x",
     "connect-mongo": "^0.8.x",
+    "consolidate": "^0.13.1",
     "cookie-parser": "^1.x.x",
     "csurf": "^1.x.x",
     "emailjs": "^0.3.x",
@@ -33,7 +34,7 @@
     "passport-tumblr": "^0.1.x",
     "passport-twitter": "^1.x.x",
     "serve-static": "^1.9.x",
-    "underscore": "^1.x.x"
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "bootstrap": "^3.x.x",

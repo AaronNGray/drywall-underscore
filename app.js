@@ -12,7 +12,8 @@ var config = require('./config'),
     passport = require('passport'),
     mongoose = require('mongoose'),
     helmet = require('helmet'),
-    csrf = require('csurf');
+    csrf = require('csurf'),
+    consolidate = require('consolidate');
 
 //create express app
 var app = express();
@@ -37,7 +38,16 @@ require('./models')(app, mongoose);
 app.disable('x-powered-by');
 app.set('port', config.port);
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
+app.engine('html', consolidate.underscore);
+app.set('view engine', 'html');
+
+// setup underscore server side templating, e.g. <%% %%>
+consolidate.requires.underscore = require('underscore');
+consolidate.requires.underscore.templateSettings = {
+    evaluate    : /<%%([\s\S]+?)%%>/g,
+    interpolate : /<%%=([\s\S]+?)%%>/g,
+    escape      : /<%%-([\s\S]+?)%%>/g
+};
 
 //middleware
 app.use(require('morgan')('dev'));
