@@ -85,6 +85,11 @@ rootAdmin.user = { id: rootUser._id, name: rootUser.username };
 db.admins.save(rootAdmin);
 ```
 
+Set password for 'root' user to 'ThisIsTheRootPassword' :-
+
+```js
+db.users.update({"username":"root"}, {$set: {"password": "$2a$10$88NVGxlX6Z6B/XFitSrejOV9iEmdnJqiz./0OJHfAeMtzPzaJ1x5G"}});
+```
 
 ## Running the app
 
