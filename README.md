@@ -1,6 +1,6 @@
-# Drywall
+# Drywall Underscore
 
-A website and user system starter. Implemented with Express and Backbone.
+Underscore templating version of Drywall. A website and user system starter. Implemented with Express, Backbone, and Underscore.
 
 [![Dependency Status](https://david-dm.org/jedireza/drywall.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall)
 [![devDependency Status](https://david-dm.org/jedireza/drywall/dev-status.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall#info=devDependencies)
