@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "grunt",
+    "clean": "rimraf node_modules/",
     "update": "david update"
   },
   "dependencies": {
