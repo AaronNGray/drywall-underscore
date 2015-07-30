@@ -17,9 +17,9 @@ We're using [Grunt](http://gruntjs.com/) for the asset pipeline.
 | On The Server | On The Client  | Development |
 | ------------- | -------------- | ----------- |
 | Express       | Bootstrap      | Grunt       |
-| Underscore    | Backbone.js    |             |
+| Passport      | Backbone.js    |             |
 | Mongoose      | jQuery         |             |
-| Passport      | Underscore.js  |             |
+| Underscore.js | Underscore.js  |             |
 | Async         | Font-Awesome   |             |
 | EmailJS       | Moment.js      |             |
 
@@ -53,7 +53,7 @@ page](https://github.com/jedireza/drywall/wiki/Trouble-sending-email).
 ## Installation
 
 ```bash
-$ git clone git@github.com:jedireza/drywall.git && cd ./drywall
+$ git clone https://github.com/AaronNGray/drywall-underscore.git && cd ./drywall
 $ npm install
 ```
 
