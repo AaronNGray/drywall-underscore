@@ -2,8 +2,8 @@
 
 Underscore templating version of Drywall. A website and user system starter. Implemented with Express, Backbone, and Underscore.
 
-[![Dependency Status](https://david-dm.org/jedireza/drywall.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall)
-[![devDependency Status](https://david-dm.org/jedireza/drywall/dev-status.svg?theme=shields.io)](https://david-dm.org/jedireza/drywall#info=devDependencies)
+[![Dependency Status](https://david-dm.org/AaronNGray/drywall-underscore.svg?theme=shields.io)](https://david-dm.org/AaronNGray/drywall-underscore)
+[![devDependency Status](https://david-dm.org/AaronNGray/drywall-underscore/dev-status.svg?theme=shields.io)](https://david-dm.org/AaronNGray/drywall-underscore#info=devDependencies)
 
 
 ## Technology
