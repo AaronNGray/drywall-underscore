@@ -17,7 +17,7 @@ We're using [Grunt](http://gruntjs.com/) for the asset pipeline.
 | On The Server | On The Client  | Development |
 | ------------- | -------------- | ----------- |
 | Express       | Bootstrap      | Grunt       |
-| Jade          | Backbone.js    |             |
+| Underscore    | Backbone.js    |             |
 | Mongoose      | jQuery         |             |
 | Passport      | Underscore.js  |             |
 | Async         | Font-Awesome   |             |
